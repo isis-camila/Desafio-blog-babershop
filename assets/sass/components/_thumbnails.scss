@@ -1,0 +1,60 @@
+.main-naomi__imagen{
+    border: 1px solid $nickel;
+    border-radius: 50%;
+    width: 100%;
+    height: auto;
+    margin-right: 3rem;
+    display: inline-flex;
+    height: 100%;
+
+    &__normal{
+        max-width: 142px;
+
+    }
+
+    &__small{
+        max-width: 133px;
+    }
+}
+
+.main__naomi_row{
+    display: inline-flex;
+    margin-bottom: 2rem;
+    @media (max-width: 576px) {
+       display: block;
+       margin-left: 6.5rem;
+   }
+}
+
+.main__col-a{
+    width: 40%;
+    display: inline-flex;
+   
+
+.mail__col1{
+    width: 20%;
+    @media (max-width: 1174px) {
+        display: block;
+        margin-left: 4rem;
+      }
+      @media (max-width: 576px) {
+        max-width: 100%;
+        left: 2rem;
+        padding-left: 1rem;
+   
+}
+
+.mail__col-b{
+    width: 6%;
+}
+
+.main__title{
+    
+    border-radius: 100%;
+          @media (max-width: 576px) {
+            max-width: 150px;
+            margin-left: 5rem;
+          }
+        }
+    }    
+}

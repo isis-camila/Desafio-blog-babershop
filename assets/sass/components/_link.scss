@@ -1,0 +1,32 @@
+/*Link-components*/
+.main__link{
+    text-decoration: none;
+    font-family: $roboto-regular;
+    margin-left: 2rem;
+    &--primary{
+        color: $ruddy-pink;
+    }
+    &--secondary{
+        color: $raisen-black;
+    }
+    &--light{
+        color: $light-gray;
+    }
+    &--dark{
+        color: $eerie-black ;
+    }
+    &:hover{
+        color: $raisen-black;
+    }
+    &:active{
+        color: $platinum;
+    }
+    &::before{
+        content: '@';
+    }
+}
+
+.main_depelos{
+    margin-left: 1.9rem;
+}
+

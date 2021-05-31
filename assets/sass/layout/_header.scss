@@ -1,0 +1,42 @@
+/* Header */
+.header{
+    background-image: url("/assets/images/post-image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    color: white;
+    height: 50rem;
+    display: flex;
+    width: 100%;
+    position: relative;
+
+    &__contenedor{
+        display: flex;
+        align-items: center;
+        justify-content: center;   
+
+        &__titulo{
+            font-family: $playfair;
+            font-size: $xx-large;
+            font-weight: $font-black;
+            color: white;
+            font-style: italic;    
+        }
+    }
+
+
+
+    i{
+        position: absolute;
+        font-size: 40px;
+        bottom: 50px;
+    }
+
+
+
+    @media (max-width: 576px) { 
+        height: 640px;
+    }
+}
+
+

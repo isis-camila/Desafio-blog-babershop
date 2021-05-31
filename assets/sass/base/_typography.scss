@@ -1,0 +1,55 @@
+//This file you will create your rule of typographys inside of the project
+
+h1 {
+    font-family: $playfair;
+    font-size: $xx-large;
+    font-weight: $font-black;
+    color: $white;
+    width: 50%;
+    font-style: italic;
+
+    @media (max-width: 576px) { 
+        font-size: $x-large;
+        max-width: 58%;
+        text-align: center;
+    }
+}
+
+h3{
+    font-family: $playfair;
+    font-size: $x-large;
+    font-weight: $font-black;
+    margin-left: 6rem;
+    color: $nickel;
+    font-style: italic;
+}
+
+p{
+    font-family: $roboto-regular;
+    font-size: $medium;
+    font-weight: $font-regular;
+    white-space: 190px;
+    text-align: justify;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-top: 2rem;
+    color: $nickel;
+      
+}
+
+h2{
+    font-family: $playfair;
+    font-size: $x-large;
+    font-weight: $font-black;
+    color: $eerie-black;
+    font-style: italic;
+
+}
+
+.main__link{
+    font-family: $playfair;
+    font-size: $large;
+    font-weight: $font-light;
+    color: $ruddy-pink;
+}
+

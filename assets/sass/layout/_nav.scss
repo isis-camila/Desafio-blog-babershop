@@ -1,0 +1,14 @@
+.navbar{
+    background-color: $eerie-black;
+}
+
+.nav-link{
+    color: $white;
+    &:hover{
+        color:$fuzzy-wuzzy;
+    }
+}
+
+.navbar_logo img{
+    width: 78.37px;
+}
